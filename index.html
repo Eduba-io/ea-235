@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Your LangGraph-on-Bedrock device agent case study caught my eye. I want to bet the context layer between Claude 3.5 and Mistral is where the rework hides on every new account.">
+<meta name="robots" content="noindex, nofollow">
+<title>A read on where context architecture fits in NIX's AI agent delivery practice</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div data-eduba="banner" style="background:#0a0a0a;color:#f5f5f5;padding:10px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:13px;letter-spacing:0.01em;border-bottom:1px solid #1f1f1f;position:relative;z-index:1000;">
+  <a href="https://eduba.io" target="_blank" rel="noopener" style="color:#f5f5f5;text-decoration:none;font-weight:800;font-size:17px;letter-spacing:-0.02em;line-height:1;">eduba</a>
+  <span style="opacity:0.88;">Prepared by Eduba for NIX &mdash; Emerge Americas 2026</span>
+</div>
+
+
+<header class="topbar">
+  <div class="container topbar-inner">
+    <a href="https://nix-united.com/" target="_blank" rel="noopener" aria-label="NIX United home" style="border: 0;">
+      <img class="logo" src="logo.svg" alt="NIX United">
+    </a>
+    <span class="prepared">Prepared for <strong>NIX</strong> &middot; eMerge Americas 2026</span>
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="container">
+    <div class="eyebrow">
+      Booth 326 <span class="pipe">/</span> <span class="blue">Peer-to-peer methodology read</span>
+    </div>
+    <h1>A read on where context architecture fits in NIX's AI agent delivery practice.</h1>
+    <p class="hero-sub">This page is a short, specific note from Eduba to the NIX commercial bench. No pitch deck. No generic methodology diagram. One hypothesis about where the rework hides on every new agent engagement, and the published methodology that addresses it.</p>
+
+    <div class="hero-meta">
+      <div class="meta-item">
+        <div class="meta-label">Conversation for</div>
+        <div class="meta-val">The NIX commercial bench</div>
+      </div>
+      <div class="meta-item">
+        <div class="meta-label">Frame</div>
+        <div class="meta-val">Methodology licensing, co-delivery</div>
+      </div>
+      <div class="meta-item">
+        <div class="meta-label">Anchor case</div>
+        <div class="meta-val">Feeld</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="container block-grid">
+    <h2>Opening.</h2>
+    <div>
+      <p class="lede">NIX has been building software for thirty years. The last two years have shifted a meaningful part of that bench toward generative AI and agent delivery.</p>
+      <p>The published work speaks clearly. A LangGraph orchestration on AWS Bedrock, running Claude 3.5 Sonnet and Mistral behind an enterprise device-management agent. An internal support chatbot built on Pgvector with Confluence-backed retrieval. Both are real production systems, shipped for real clients. Both sit on top of a context layer that, across every vendor in the category, is the part that gets rebuilt on every new engagement.</p>
+      <ul class="stack" aria-label="Referenced stack from NIX case studies">
+        <li>LangGraph</li>
+        <li>AWS Bedrock</li>
+        <li>Claude 3.5 Sonnet</li>
+        <li>Mistral</li>
+        <li>Pgvector</li>
+        <li>Confluence RAG</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="block alt">
+  <div class="container block-grid">
+    <h2>The Eduba frame.</h2>
+    <div>
+      <p>Computational orchestration is the working name for what Eduba does. In a given client problem, the work usually divides this way:</p>
+
+      <div class="framework" role="group" aria-label="The 60/30/10 framework">
+        <div class="framework-row">
+          <div class="framework-pct">60%</div>
+          <div class="framework-desc"><strong>Traditional code and database operations.</strong> SQL, schema, services, plain engineering.</div>
+        </div>
+        <div class="framework-row">
+          <div class="framework-pct blue">30%</div>
+          <div class="framework-desc"><strong>Rule-based logic.</strong> Deterministic workflow, policy, routing.</div>
+        </div>
+        <div class="framework-row">
+          <div class="framework-pct red">10%</div>
+          <div class="framework-desc"><strong>Genuine AI.</strong> Work where a model is the right tool, not the reflex tool.</div>
+        </div>
+      </div>
+
+      <p style="margin-top: 28px;">Teams who skip that separation spend budget putting an LLM where a SQL query would do the job faster, cheaper, and with better guarantees. For a services firm, the same discipline applies one level up. On every new AI agent engagement, the architectural question is which pieces belong in code, which pieces belong in an interpretable context layer, and which pieces belong in the model itself. Getting that separation right once, publishing it as a methodology, and running it consistently across accounts is what protects premium pricing against Copilot-compressed hours.</p>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="container block-grid">
+    <h2>The case.</h2>
+    <div>
+      <div class="case-card">
+        <div class="case-head">
+          <span class="case-tag">Reference engagement</span>
+        </div>
+        <h3>Feeld</h3>
+        <p style="margin-top: 14px;">Feeld's CTO brought Eduba in for a scoped sprint. The deliverables were a workshop, advisory calls, and an Organizational Context Architecture that defined how the product team's AI workflow would operate at scale. Interpretable Context Methodology (ICM) was the architectural spine.</p>
+        <p>What Feeld ended up with was a shared vocabulary and a reproducible structure for how context gets written, versioned, and audited inside their agent stack. The same pattern applies to any services firm delivering agents for clients and wanting the architecture to be consistent, auditable, and reusable across accounts.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block alt">
+  <div class="container block-grid">
+    <h2>The paper.</h2>
+    <div>
+      <p>The methodology is published. Interpretable Context Methodology, submitted to <a href="https://dl.acm.org/journal/tiis" target="_blank" rel="noopener">ACM TiiS</a>. Folder structure as agent architecture. L0 through L4, with measurable interpretability gains and a 52-member practitioner community testing the edit patterns.</p>
+      <div class="paper">
+        <span class="paper-label">Read and fork</span>
+        <p>Repository: <a href="https://github.com/RinDig/Interpretable-Context-Methodology-ICM-" target="_blank" rel="noopener">github.com/RinDig/Interpretable-Context-Methodology-ICM-</a> (MIT license).</p>
+      </div>
+      <p style="margin-top: 22px;">Matt's colleague Jake built an online community to 22,000 members in five weeks, which is useful context for the distribution piece of any methodology partnership.</p>
+      <p style="font-size: 0.9rem; color: var(--nix-body);">Eduba partners with <a href="https://nlplogix.com/" target="_blank" rel="noopener">NLP Logix</a> for work that sits below the orchestration layer. NLP Logix has been in machine learning since 2011 and runs over 150 data scientists.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container">
+    <h2>30 minutes with Matt.</h2>
+    <p>Bring one agent engagement you have shipped in the last six months. We'll do a live read on where ICM would change the architecture and where it would not.</p>
+    <div class="cta-row">
+      <a class="cta-btn" href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">Book the 30-minute call <span class="arrow" aria-hidden="true">&rarr;</span></a>
+      <span class="cta-person">With <strong>Matt Creamer</strong>, Chief Revenue Officer, Eduba</span>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span>Prepared by Eduba &middot; <a href="https://eduba.io/" target="_blank" rel="noopener">eduba.io</a> &middot; <a href="https://eduba.io/works" target="_blank" rel="noopener">More case studies</a></span>
+    <span>For NIX United &middot; eMerge Americas 2026, Booth 326</span>
+  </div>
+</footer>
+
+<footer data-eduba="footer" style="background:#0a0a0a;color:#dcdcdc;padding:36px 20px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:13px;line-height:1.6;border-top:1px solid #1f1f1f;margin-top:48px;">
+  <div style="max-width:1040px;margin:0 auto;">
+    <div style="display:flex;flex-wrap:wrap;gap:28px;justify-content:space-between;align-items:flex-start;">
+      <div style="min-width:240px;flex:1;">
+        <div style="margin-bottom:6px;"><a href="https://eduba.io" target="_blank" rel="noopener" style="color:#ffffff;text-decoration:none;font-weight:800;font-size:20px;letter-spacing:-0.02em;">eduba</a></div>
+        <div style="opacity:0.85;margin-bottom:4px;">Van Clief Media LLC, dba Eduba</div>
+        <div style="opacity:0.7;">Veteran-owned AI consulting and training firm</div>
+      </div>
+      <div style="min-width:220px;flex:1;">
+        <div style="color:#ffffff;font-weight:600;margin-bottom:2px;">Matt Creamer, CRO</div>
+        <div style="margin-bottom:10px;"><a href="mailto:thecro@eduba.io" style="color:#dcdcdc;text-decoration:underline;">thecro@eduba.io</a></div>
+        <div style="opacity:0.85;">Founder: Jake Van Clief</div>
+      </div>
+      <div style="min-width:180px;flex:1;">
+        <div style="margin-bottom:4px;"><a href="https://eduba.io" target="_blank" rel="noopener" style="color:#dcdcdc;text-decoration:underline;">eduba.io</a></div>
+        <div style="opacity:0.85;">Palm Coast, FL</div>
+      </div>
+    </div>
+    <div style="margin-top:24px;padding-top:16px;border-top:1px solid #1f1f1f;opacity:0.62;font-size:12px;line-height:1.55;">
+      This site was custom-built by Eduba as a conference pitch. It is not affiliated with or operated by NIX.
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
